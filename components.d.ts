@@ -8,7 +8,6 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     Coffee: typeof import('./src/components/Coffee.vue')['default']
-    InstallAppModal: typeof import('./src/components/common/InstallAppModal.vue')['default']
     MPop: typeof import('./src/components/common/MPop.vue')['default']
     MusicList: typeof import('./src/components/MusicList.vue')['default']
     MvPlayer: typeof import('./src/components/MvPlayer.vue')['default']
