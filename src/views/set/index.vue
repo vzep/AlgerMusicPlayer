@@ -88,8 +88,6 @@ defineOptions({
   name: 'Setting',
 });
 
-const alipayQR = 'https://github.com/algerkong/algerkong/blob/main/alipay.jpg?raw=true';
-const wechatQR = 'https://github.com/algerkong/algerkong/blob/main/wechat.jpg?raw=true';
 
 const isElectron = ref((window as any).electronAPI !== undefined);
 const router = useRouter();
