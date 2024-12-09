@@ -37,7 +37,6 @@
 import { useRoute } from 'vue-router';
 import { useStore } from 'vuex';
 
-import InstallAppModal from '@/components/common/InstallAppModal.vue';
 import PlayBottom from '@/components/common/PlayBottom.vue';
 import { isElectron } from '@/hooks/MusicHook';
 import homeRouter from '@/router/home';
