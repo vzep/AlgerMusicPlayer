@@ -36,8 +36,6 @@
       <div v-else class="mx-2 rounded-full cursor-pointer text-sm" @click="toLogin">登录</div>
     </div>
     <coffee
-      alipay-q-r="https://github.com/algerkong/algerkong/blob/main/alipay.jpg?raw=true"
-      wechat-q-r="https://github.com/algerkong/algerkong/blob/main/wechat.jpg?raw=true"
     >
       <div class="github" @click="toGithub">
         <i class="ri-github-fill"></i>
